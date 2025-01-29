@@ -50,8 +50,8 @@ st.warning("Warning")
 st.info("Information")
 st.exception(RuntimeError("RuntimeError exception"))
 
-st.sidebar.title("5 Minutes Engineering")
-st.sidebar.image("xyz.jpg")
+st.sidebar.title("Yash Bari")
+st.sidebar.image("XYZ.jpg")
 
 df = pd.DataFrame(np.random.randn(50, 20), columns=("col %d" % i for i in range(20)))
 st.dataframe(df)
